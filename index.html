@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>March 26 Newsletter</title>
+        <base href="/">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+    body{
+        margin:0;
+        background: url(backgroundbgtest.jpg);
+        font-family: "Newsreader", serif;
+        justify-content: center;
+    }
+    #header-container{
+        color: white;
+        justify-content: center;
+        background: #023020;
+        padding: 10px;
+        width: 50%;
+        margin-left: 25%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 0 0 black;
+        margin-bottom: 20px;
+        border: white 3px solid;
+    }
+    #header-container h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+    #header-container p{
+        text-align: center;
+        
+    }
+    #newsletter-container{
+
+    }
+    #newsletter-header{
+        border-top: white 3px solid;
+        border-left: white 3px solid;
+        border-right: white 3px solid;
+        justify-content: center;
+        text-align: center;
+        background: #feff9c;
+        padding: 10px;
+        width: 50%;
+        margin-left: 25%;
+        border-radius: 10px 10px 0 0;
+        box-shadow: 10px 10px 0 0 black;
+        border-bottom: 5px solid black;
+    }
+    #newsletter-header h1{
+        text-decoration: underline;
+    }
+    #newsletter-subheader{
+        font-weight: bold;
+        font-style: italic;
+        margin-left: 100px;
+        justify-content: center;        
+        display: flex;
+        flex-direction: row;
+    }
+    #newsletter-subheader p{
+        margin-right: 100px;
+        text-decoration: underline;
+    }
+    #annoucements-container{
+        background: white;
+    }
+    #newsletter-intro{
+        border-left: white 3px solid;
+        border-right: white 3px solid;
+        justify-content: center;
+        text-align: center;
+        background: #feff9c;
+        padding: 10px;
+        width: 50%;
+        margin-left: 25%;
+        box-shadow: 10px 10px 0 0 black;
+        
+    }
+    #newsletter-intro-content{
+        display: flex;
+        flex-direction: row;
+    }
+    #newsletter-intro-content p{
+        vertical-align: middle;
+    }
+    #newsletter-intro-content-text{
+        margin-left: 70px;
+        border-radius: 10px;
+        background: #f4dc72;
+        width: 200px;
+        text-align: left;
+        padding: 30px;
+        border: black solid 5px;
+        box-shadow: 5px 5px 0 0 black;
+    }
+    #newsletter-intro-content-img{
+        margin-left: 100px;
+    }
+    #newsletter-fun-fact{
+        border-left: white 3px solid;
+        border-right: white 3px solid;
+        justify-content: center;
+        text-align: center;
+        background: #feff9c;
+        padding: 10px;
+        width: 50%;
+        margin-left: 25%;
+        box-shadow: 10px 10px 0 0 black;
+    }
+    #newsletter-fun-fact-content{
+        display: flex;
+        flex-direction: row;
+    }
+    #newsletter-fun-fact-content-img{
+        margin-left: 30px;
+        
+    }
+    #newsletter-fun-fact-content-text{
+        margin-left: 30px;
+        border-radius: 10px;
+        background: #84a4c2;
+        width: 300px;
+        text-align: left;
+        padding: 30px;
+        border: black solid 5px;
+        box-shadow: 5px 5px 0 0 black;
+        
+        
+    }
+
+    #newsletter-announcement{
+        justify-content: center;
+        text-align: center;
+        background: #feff9c;
+        padding: 10px 10px 40px 10px;
+        width: 50%;
+        margin-left: 25%;
+        border-radius: 0 0 10px 10px;
+        border-bottom: white 3px solid;
+        border-left: white 3px solid;
+        border-right: white 3px solid;
+        box-shadow: 10px 10px 0 0 black;
+    }
+    #newsletter-announcement-content{
+        display:flex;
+        flex-direction: row;
+    }
+
+    #newsletter-announcement-content-text{
+        margin-left: 60px;
+        border-radius: 10px;
+        background: #b79522;
+        width: 300px;
+        text-align: left;
+        padding: 30px;
+        border: black solid 5px;
+        box-shadow: 5px 5px 0 0 black;
+
+    }
+    #newsletter-announcement-content-img{
+        margin-left: 50px;
+    }
+    #annoucements-container{
+        border: white 3px solid;
+        color:white;
+        margin-top: 20px;
+        justify-content: center;
+        text-align: center;
+
+        background: #023020;
+        padding: 10px 10px 10px 10px;
+        width: 50%;
+        margin-left: 25%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 0 0 black;
+    }
+    #annoucements-container li{
+        margin-left: 20px;
+        margin-bottom: 10px;
+        list-style: upper-roman;
+        text-align: left;
+
+    }
+</style>
+<body>
+    <div id="header-container">
+        <h1>Weekly Email</h1>
+        <p>NO FG THIS WEEK!</p>
+        <p>Come join us @ <strong>LIPTON</strong> @ 7PM (33 Washington Square W)!</p>
+    </div>
+
+    <div id="newsletter-container">
+        <div id="newsletter-header">
+        <h1>Rooted Newsletter</h1>
+            <div id="newsletter-subheader">
+                <p>26 March 2024</p>
+                <p>Week 9, Issue #06</p>
+            </div>
+        </div>
+        <div id="newsletter-intro">
+            <h2>THIS WEEK'S FEATURE: JIWON</h2>
+            <div id="newsletter-intro-content">
+                <div id="newsletter-intro-content-text">
+                    <p>Hello! I am Jiwon. I am a senior classical voice student from Manhattan School of Music. I am trying hard to sing well!</p>
+                </div>
+                <div id="newsletter-intro-content-img">
+                    <img src="jiwon1.jpg" alt="Jiwon1" style="height: 15vw; border-radius:10px; border: 5px solid black; box-shadow: 5px 5px 0 0 black;">
+                </div>
+            </div>
+        </div>
+        <div id="newsletter-fun-fact">
+            <h2>FUN FACT</h2>
+            <div id="newsletter-fun-fact-content">
+                <div id="newsletter-fun-fact-content-img">
+                    <img src="jiwon3.jpg" alt="jiwon3"  style="height: 20vw; border-radius:10px; border: 5px solid black; box-shadow: 5px 5px 0 0 black;">
+                </div>
+                <div id="newsletter-fun-fact-content-text">
+                    <p>If I have spare time, I draw. I always draw to give to someone that I really appreciate and love. The result always comes out with as much effort as I put in! So I become like a zombie until I finish them. No sleep and no happiness until the end. A real zombie. However, it relieves my stress. As I draw, I can only think of the person that I sincerely love. Not about any other things, but love and care. Despite getting tired physically, I never get tired spiritually.</p>
+                </div>
+            </div>
+        </div>
+        <div id="newsletter-announcement">
+
+            <h2>RECITAL ANNOUCEMENT</h2>
+            <div id="newsletter-announcement-content">
+                <div id="newsletter-announcement-content-text">
+                    <p>I have my recital at 8:00 PM on April 19th! It would be such a blessing to have you guys there! (but no pressure at all)</p>
+                    <p>^^♡♡</p>
+                </div>
+                <div id="newsletter-announcement-content-img">
+                    <img src="jiwon2.jpg" alt="Jiwon2" style="height: 15vw; border-radius:10px; border: 5px solid black; box-shadow: 5px 5px 0 0 black;">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="annoucements-container">
+        <h1>Annoucements</h1>
+        <ul>
+            <li>No FG</li>
+            <li>No Large Group</li>
+            <li>Daily Passion Week Prayer @ 7pm</li>
+            <li>Good Friday Service (7pm @ RCC)</li>  
+            <li>Easter Service (We are taking FG pictures so dress your Easter best!)</li>
+                      
+        </ul>
+
+    </div>
+    
+</body>
